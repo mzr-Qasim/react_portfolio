@@ -1,13 +1,12 @@
 $black-color: #000;
 $white-color: #fff;
 
-;
 $theme-background: linear-gradient(90deg, rgba(79, 33, 255, 1) 0%, rgba(208, 107, 255, 1) 100%);
 
 $theme-color: #00a1f2;
 $theme-color-2: #504bfd;
-$light-text-color:          rgb(212, 212, 212);
-$light-black-color:          rgb(12, 12, 12);
+$light-text-color: rgb(212, 212, 212);
+$light-black-color: rgb(12, 12, 12);
 
 
 
@@ -44,7 +43,7 @@ button {
 body {
     overflow: hidden;
     overflow-y: auto;
-    font-family: "Poppins", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 .container-md {
@@ -69,6 +68,7 @@ body {
 .section-space-sm {
     margin-bottom: 2rem;
 }
+
 .section-space {
     margin-bottom: 5rem;
 }
@@ -76,6 +76,7 @@ body {
 .section-space-md {
     margin-bottom: 7rem;
 }
+
 .section-space-lg {
     margin-bottom: 10rem;
 }
@@ -96,7 +97,7 @@ body {
     justify-content: center;
 }
 
-.justify_space{
+.justify_space {
     justify-content: space-between;
 }
 
@@ -108,13 +109,25 @@ body {
     resize: none;
 }
 
-.text_center{
+.text_center {
     text-align: center;
 }
 
+
+.main-hero-heading {
+    font-size: clamp(2.5rem, 4vw, 8rem);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+
+    span.country {
+        font-size: 70%;
+    }
+}
 
 .theme_para {
     font-size: clamp(1.2rem, 2vw, 1.4rem);
     font-family: "Inter", sans-serif;
     padding-bottom: 2rem;
 }
+
+
