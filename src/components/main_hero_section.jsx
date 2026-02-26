@@ -36,7 +36,7 @@ export function MainHeroSection() {
     return (
         <>
             {mainHero.map((hero, index) => (
-                <section key={index} className="main-hero-section section-space-md">
+                <section key={index} className="main-hero-section">
                     <img className="main_hero_asset" src={hero.image} alt="" />
                     <div className="main-hero-content">
                         <div className="container">

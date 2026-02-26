@@ -32,7 +32,7 @@
     .main-hero-content-inner {
         span.welcome-hero{
             text-transform: uppercase;
-            font-weight: 400;
+            font-weight: 300;
         }
         color: white;
         span{
@@ -46,4 +46,30 @@
 
     }
 
+}
+
+
+.about_section{
+    background-color: base.$theme-background;
+
+    .col-inner{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+
+        figure{
+            width: 100%;
+            height: 100%;
+            aspect-ratio: 1/1.2;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+    }
 }

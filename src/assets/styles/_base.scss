@@ -1,12 +1,13 @@
 $black-color: #000;
 $white-color: #fff;
 
-$theme-background: linear-gradient(90deg, rgba(79, 33, 255, 1) 0%, rgba(208, 107, 255, 1) 100%);
+$theme-background: #191919;
+$theme-para-color: rgba(198, 201, 216, .75);
 
-$theme-color: #00a1f2;
-$theme-color-2: #504bfd;
-$light-text-color: rgb(212, 212, 212);
-$light-black-color: rgb(12, 12, 12);
+// $theme-color: #00a1f2;
+// $theme-color-2: #504bfd;
+// $light-text-color: rgb(212, 212, 212);
+// $light-black-color: rgb(12, 12, 12);
 
 
 
@@ -65,25 +66,19 @@ body {
     margin-top: 4rem;
 }
 
-.section-space-sm {
-    margin-bottom: 2rem;
-}
 
 .section-space {
-    margin-bottom: 5rem;
+    padding: 5rem 0;
 }
 
 .section-space-md {
-    margin-bottom: 7rem;
+    padding: 7rem 0;
 }
 
 .section-space-lg {
-    margin-bottom: 10rem;
+    padding: 10rem 0;
 }
 
-.section-space-footer {
-    padding-top: 5rem;
-}
 
 .d_flex {
     display: flex;
@@ -120,14 +115,24 @@ body {
     font-weight: 800;
 
     span.country {
-        font-size: 70%;
+        font-size: 60%;
     }
 }
 
-.theme_para {
-    font-size: clamp(1.2rem, 2vw, 1.4rem);
-    font-family: "Inter", sans-serif;
-    padding-bottom: 2rem;
+.main-heading {
+    font-size: clamp(2rem, 3vw, 6rem);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: $white-color;
+    text-transform: capitalize;
+    padding-bottom: 1.5rem;
 }
 
 
+.theme_para {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-family: "Work Sans", sans-serif;
+    padding-bottom: 2rem;
+    color: $theme-para-color;
+    font-weight: 400;
+}
